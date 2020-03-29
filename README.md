@@ -9,5 +9,5 @@ Taro初始化模板
 使用
 
 ```bash
-taro init --clone github:leonmin/wen-taro
+git clone https://github.com/leonmin/wen-taro.git
 ```
