@@ -1,0 +1,23 @@
+@import './variables.scss';
+page {
+  height: 100%;
+  background: $bg;
+}
+
+view,
+text,
+scroll-view {
+  font-size: $small;
+  box-sizing: border-box;
+  color: #555;
+  // line-height: 2em;
+}
+text {
+  word-break: break-all;
+}
+
+button {
+  &:after {
+    display: none;
+  }
+}
